@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Configurations>
+  <Channels>
+    <Channel>All</Channel>
+    <Channel><!-- your channels here--></Channel>
+  </Channels>
+  <RestKey>
+    <!-- your rest key api here-->
+  </RestKey>
+  <AppID>
+    <!-- your app id here-->
+  </AppID>
+  <Language>
+    <!-- your message language here-->
+  </Language>
+</Configurations>
