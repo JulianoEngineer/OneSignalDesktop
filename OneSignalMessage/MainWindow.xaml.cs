@@ -105,8 +105,6 @@ namespace OneSignalMessage
 
             request.Headers.Add("authorization", "Basic "+RestKey);
 
-            String yu = GetSelectedChannels();
-
             byte[] byteArray = Encoding.UTF8.GetBytes("{"
                                                     + "\"app_id\": \""+AppID+"\","
                                                     + "\"contents\": {\""+Language+"\": \""+txtMessage.Text+"\"},"
